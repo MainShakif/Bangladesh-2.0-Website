@@ -37,7 +37,8 @@
 #vision,
 #Adviser_speech,
 #opinion,
-#news {
+#news,
+#donate {
   margin-top: 80px;
 }
 .section_heading {
@@ -167,6 +168,7 @@ body {
   padding: 11px 20px;
   border: none;
 }
+
 /* Adviser's speech styles */
 #Adviser_speech #speech_Container {
   background-color: #ffffff;
@@ -188,16 +190,14 @@ body {
   line-height: 24px;
   margin-bottom: 4px;
 }
-/* Quote related problem */
-/* #speech_Container {
+/* Quote related problem solved */
+#speech_Container {
   position: relative;
 }
-i {
+#speech_Container img {
   position: absolute;
-  top: -40px;
-  left: 20px;
-} */
-/* Quote related problem end*/
+  top: 25px;
+}
 
 #speech_Container span {
   font-size: 18px;
@@ -231,7 +231,7 @@ i {
 }
 /* tbody */
 #opinion_table_container table tbody td {
-  padding: 36px 24px;
+  padding: 24px;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 #opinion_table_container table tbody td table tbody .table_btn {
@@ -252,10 +252,11 @@ i {
   align-items: center;
   justify-content: center;
   gap: 25px;
-  /* width: 180px;
-  margin: 0 auto; */
 }
-
+.btn_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
 /* news section styles */
 #news_card_container {
   background-color: #ffffff;
@@ -301,5 +302,16 @@ i {
   color: rgba(14, 14, 14, 0.6);
   line-height: 24px;
   margin-bottom: 32px;
+}
+
+/* DONATE SECTION */
+#donate_card_container {
+  display: flex;
+  justify-content: space-around;
+}
+#donate_card_container .donate_card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
 }
 /* main ends */
