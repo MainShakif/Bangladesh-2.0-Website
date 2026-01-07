@@ -64,7 +64,9 @@
   line-height: 24px;
   margin-bottom: 15px;
 }
-
+.text_center {
+  text-align: center;
+}
 /* common styles end*/
 
 body {
@@ -314,4 +316,24 @@ body {
   padding: 40px;
   border-radius: 16px;
 }
+.donate_card h2 {
+  font-size: 40px;
+  color: rgba(14, 14, 14, 0.8);
+}
+#donate_section #donate_amount {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  max-width: 1032px;
+  margin: 0 auto;
+  margin-top: 32px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  text-align: center;
+  margin-bottom: 20px;
+}
+#donate_section #donate_amount p {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /* main ends */
