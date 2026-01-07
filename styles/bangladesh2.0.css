@@ -9,7 +9,7 @@
   font-weight: 200;
   font-style: normal;
 }
-/* common styles */
+/* common styles start*/
 .container {
   width: 71.25%;
   margin: 0 auto;
@@ -24,6 +24,13 @@
   border: none;
   cursor: pointer;
 }
+.section_heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+/* common styles end*/
 
 body {
   background-color: #f5f5f5;
@@ -80,3 +87,37 @@ body {
 #banner_image img {
   max-width: 474px;
 }
+
+/* main starts */
+
+/* pillars section */
+#pillars {
+  margin-top: 80px;
+}
+#pillars-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+#pillars-cards .pillar_card {
+  background-color: #ffffff;
+  padding: 24px;
+  border: 1px solid #0e0e0e;
+  border-radius: 16px;
+  max-width: 302px;
+}
+#pillars-cards .pillar_card img {
+  padding: 15px 0;
+}
+.pillar_card .card_title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 14px;
+}
+.pillar_card .card_desc {
+  font-size: 16px;
+  color: #0e0e0e;
+  line-height: 24px;
+}
+/* main ends */
