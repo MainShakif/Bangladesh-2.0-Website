@@ -24,12 +24,34 @@
   border: none;
   cursor: pointer;
 }
+#pillars,
+#vision {
+  margin-top: 80px;
+}
 .section_heading {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   color: #0e0e0e;
   margin-bottom: 32px;
 }
+.section_desc {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.card_title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 14px;
+}
+.card_desc {
+  font-size: 16px;
+  color: #0e0e0e;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
 /* common styles end*/
 
 body {
@@ -91,9 +113,7 @@ body {
 /* main starts */
 
 /* pillars section */
-#pillars {
-  margin-top: 80px;
-}
+
 #pillars-cards {
   display: flex;
   justify-content: space-between;
@@ -105,19 +125,33 @@ body {
   border: 1px solid #0e0e0e;
   border-radius: 16px;
   max-width: 302px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 #pillars-cards .pillar_card img {
   padding: 15px 0;
 }
-.pillar_card .card_title {
-  font-size: 20px;
-  font-weight: 700;
-  color: #0e0e0e;
-  margin-bottom: 14px;
+
+/* vision styles */
+#vision_Container #vision_content {
+  margin-bottom: 32px;
 }
-.pillar_card .card_desc {
-  font-size: 16px;
-  color: #0e0e0e;
-  line-height: 24px;
+#vision_cards_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+#vision_cards_container .vision_card {
+  max-width: 410px;
+  padding: 28px;
+}
+.vision_card img {
+  max-width: 674px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.vision_card .vision_card_btn {
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none;
 }
 /* main ends */
