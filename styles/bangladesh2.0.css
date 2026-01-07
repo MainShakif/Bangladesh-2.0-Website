@@ -26,7 +26,8 @@
 }
 #pillars,
 #vision,
-#Adviser_speech {
+#Adviser_speech,
+#opinion {
   margin-top: 80px;
 }
 .section_heading {
@@ -192,5 +193,50 @@ i {
   font-weight: 500;
   color: rgba(14, 14, 14, 0.5);
   line-height: 24px;
+}
+
+/* Opinion styles start */
+#opinion_table_container table {
+  max-width: 1280px;
+}
+#opinion_table_container table td {
+  border: 2px solid black;
+}
+/* table */
+#opinion_table_container table {
+  width: 1280px;
+  border-collapse: collapse;
+  border: 1px dashed rgba(14, 14, 14, 0.15);
+}
+/* thead */
+#opinion_table_container table thead th {
+  padding: 24px;
+  /* border: 1px dashed rgba(14, 14, 14, 0.15); */
+}
+/* tbody */
+#opinion_table_container table tbody td {
+  padding: 36px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+#opinion_table_container table tbody td table tbody .table_btn {
+  text-align: center;
+}
+#opinion_table_container table tbody tr td {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e0e0e;
+}
+#opinion_table_container .table_btn span {
+  font-size: 18px;
+  color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  padding: 11px 22px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  /* width: 180px;
+  margin: 0 auto; */
 }
 /* main ends */
