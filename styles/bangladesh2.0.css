@@ -32,13 +32,15 @@
   padding: 13px 26px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 #pillars,
 #vision,
 #Adviser_speech,
 #opinion,
 #news,
-#donate {
+#donate,
+#newsletter {
   margin-top: 80px;
 }
 .section_heading {
@@ -316,6 +318,10 @@ body {
   padding: 40px;
   border-radius: 16px;
 }
+.donate_content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 .donate_card h2 {
   font-size: 40px;
   color: rgba(14, 14, 14, 0.8);
@@ -336,4 +342,57 @@ body {
   font-weight: 500;
 }
 
+/* newsletter styles */
+#newsletter_Container {
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+#newsletter_content {
+  max-width: 750px;
+  margin: 0 auto;
+}
+#newsletter_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 16px;
+}
+#newsletter_content P {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+#newsletter_content #display-flex {
+  margin-bottom: 24px;
+}
+
+#newsletter_content #display-flex {
+  display: flex;
+}
+#newsletter_content #display-flex input[type="email"] {
+  padding: 18px 40px;
+  width: 600px;
+  border: none;
+  flex: 1;
+}
+#newsletter_content #display-flex .subscribe_btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #006a50;
+  padding: 18px 28px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  margin-right: 0;
+  cursor: pointer;
+}
+div h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
 /* main ends */
