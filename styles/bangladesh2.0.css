@@ -437,6 +437,7 @@ div h5 {
   background-color: #ffffff;
   padding: 50px 160px;
   margin-bottom: 20px;
+  box-shadow: 0 5px 20px 0 #c6e4d6;
 }
 
 #footer_container h3 {
